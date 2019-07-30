@@ -1,5 +1,5 @@
 import React from "react"
-import  Section  from "./src/styling/styles"
+import  Section  from "./src/components/styling/styles"
 import image from "./public/images/stars.jpg"
 import self from "./public/images/selfImage.jpg"
 
