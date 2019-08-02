@@ -2,6 +2,7 @@ import React from "react"
 import  Section  from "./src/components/styling/styles"
 import image from "./public/images/stars.jpg"
 import self from "./public/images/selfImage.jpg"
+import Title from "./src/components/title"
 
 export default class App extends React.Component{
     state ={
@@ -13,7 +14,7 @@ export default class App extends React.Component{
         return(
 
             <Section img={ image }>
-                <p>The clay support.</p>
+                <Title />
             </Section>
             
         )

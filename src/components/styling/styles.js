@@ -12,8 +12,8 @@ import styled from "styled-components"
     overflow: hidden;
     justify-content: center;
     font-family: 'Shadows Into Light Two', cursive;
-    font-size: 3.5em;
-    line-height: 1.2em;
+    font-size: 4.5em;
+    
 `
 
 export default Section
