@@ -3,22 +3,28 @@ import styled from "styled-components"
 
 const TitleP = styled.div`
 color: white;
-font-size: 1.6em;
-line-height: 1.2em;
+font-size: 2.5em;
+line-height: 1.5em;
 > .line1, .line4{
     font-family:'PT Sans Narrow', sans-serif;
-    font-size: 1.8em;
+    font-size: 2.7em;
+    
 }
 > .line2{
     font-family: 'Fredericka the Great', cursive;
-    font-size: 1.3em;
+    font-size: 2.7em;
     
 }
+> .line3{
+    font-size: 2.1em;
+}
+
+
 ` 
 
 export const Title = () =>{
     return(
-
+//linter needs closing tag for <br>
   <TitleP>
     <span className="line1">NOT</span><br></br>
     <span className="line2">your average</span><br></br>

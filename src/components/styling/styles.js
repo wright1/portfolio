@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled, { css} from "styled-components"
 
  const Section = styled.section`
     display: flex;
@@ -12,7 +12,10 @@ import styled from "styled-components"
     overflow: hidden;
     justify-content: center;
     font-family: 'Shadows Into Light Two', cursive;
-    font-size: 4.5em;
+    font-size: 2.7em;
+    @media(min-width: 668px){
+        font-size: 1.2em;
+    }
     
 `
 
