@@ -5,14 +5,15 @@ const TitleP = styled.div`
 color: white;
 font-size: 2.5em;
 line-height: 1.5em;
+padding-left: 0.3em;
 > .line1, .line4{
     font-family:'PT Sans Narrow', sans-serif;
-    font-size: 2.7em;
+    font-size: 2.1em;
     
 }
 > .line2{
     font-family: 'Fredericka the Great', cursive;
-    font-size: 2.7em;
+    font-size: 2.5em;
     
 }
 > .line3{
@@ -22,7 +23,7 @@ line-height: 1.5em;
 
 ` 
 
-export const Title = () =>{
+export  const Title = () =>{
     return(
 //linter needs closing tag for <br>
   <TitleP>
@@ -34,4 +35,4 @@ export const Title = () =>{
 
     )
 }
-export default Title
+
