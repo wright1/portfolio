@@ -25,7 +25,7 @@ export const Section = styled.section`
     flex-direction: column;
     width: 100vw;
     height:100vh;
-    background-color: #B3B8B4;
+    background-color: white;
     background-image: url(${props=>props.img || 'none'});
     background-repeat: no-repeat;
     background-size: cover;

@@ -10,6 +10,7 @@ export default class App extends React.Component{
     }
 
     render(){
+        const width = window.innerWidth < 380;
 
         return(
             <>
@@ -17,8 +18,13 @@ export default class App extends React.Component{
             <Section img={ image } attachment={"fixed"}>
                 <Title />
             </Section>
+            {width ? 
             <Section img={ self }>
-            </Section>
+            </Section>:
+            <Section>
+                <p>cats</p>
+            </Section> 
+        }
             </>
             
         )
