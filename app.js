@@ -3,6 +3,7 @@ import  {Section, GlobalStyle}  from "./src/components/styling/styles"
 import image from "./public/images/stars.jpg"
 import self from "./public/images/selfImage.jpg"
 import {Title} from "./src/components/title"
+import {Blurb} from "./src/components/blurb"
 
 export default class App extends React.Component{
     state ={
@@ -20,9 +21,10 @@ export default class App extends React.Component{
             </Section>
             {width ? 
             <Section img={ self }>
+               <Blurb />
             </Section>:
             <Section>
-                <p>cats</p>
+                <Blurb />
             </Section> 
         }
             </>
