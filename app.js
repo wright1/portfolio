@@ -4,6 +4,7 @@ import image from "./public/images/stars.jpg"
 import self from "./public/images/selfImage.jpg"
 import {Title} from "./src/components/title"
 import {Blurb} from "./src/components/blurb"
+import {Name} from "./src/components/name"
 
 export default class App extends React.Component{
     state ={
@@ -21,9 +22,11 @@ export default class App extends React.Component{
             </Section>
             {width ? 
             <Section img={ self }>
+               <Name />
                <Blurb />
             </Section>:
             <Section>
+                <Name />
                 <Blurb />
             </Section> 
         }

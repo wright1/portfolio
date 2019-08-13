@@ -5,7 +5,7 @@ const BlurbDiv = styled.div`
 color: #140036;
 font-family: 'Open Sans', sans-serif;
 font-weight: 300;
-font-size: 1.5em;
+font-size: 1.3em;
 width: 60vw;
 padding-left: 1em;
   p{
