@@ -1,4 +1,5 @@
 import styled, { css, createGlobalStyle } from "styled-components"
+import panel from "../../../public/images/selfImage.jpg"
 
 export const GlobalStyle = createGlobalStyle`
     body{
@@ -12,7 +13,8 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Shadows Into Light', cursive;
     -webkit-animation-name: fadeout;
 	-webkit-animation-duration: 3s;
-	-webkit-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    }
 
     }
     html{
@@ -32,11 +34,29 @@ export const Section = styled.section`
     background-attachment: ${props=>props.attachment || 'none'};
     background-position: cover;
     overflow: hidden;
+    position: relative;
     justify-content: center;
     font-family: 'Shadows Into Light Two', cursive;
+    > .panel{
+        position: absolute;
+        top: 10vh;
+        bottom: 0;
+        right: 5vw;
+    }
     @media(min-width: 668px){
         font-size: 1.2em;
     }
     
+`
+
+export const ImagePanel = styled.div`
+width: 30vw;
+height: 80vh;
+background-image: url(${panel});
+background-repeat: no-repeat;
+background-size: cover;
+background-position: cover;
+border-radius: 10px;
+box-shadow: 0 0 5px 5px grey;
 `
 
