@@ -62,6 +62,12 @@ box-shadow: 0 0 5px 5px grey;
 
 export const Head = styled.div`
 display: flex;
+width: 100vw;
+height: 10vh;
+position: absolute;
+top: 0.3em;
+font-family: 'PT Sans Narrow', cursive; 
+font-size: 2.7em;
 color: #140036;
 justify-content: center;
 `
