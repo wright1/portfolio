@@ -39,7 +39,7 @@ export const Section = styled.section`
     font-family: 'Shadows Into Light Two', cursive;
     > .panel{
         position: absolute;
-        top: 10vh;
+        top: 13vh;
         bottom: 0;
         right: 5vw;
     }

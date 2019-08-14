@@ -38,13 +38,14 @@ export const Blurb = () => {
    return(
        <BlurbDiv>
            <p>
-               Former bored sales assistant turned <span className="word1">web-developer</span>.
+               Former bored sales assistant turned <span className="word1">full-stack javascript web-developer</span>.
                </p>
                <p>Recent graduate of <span className="word2"><a href="https://www.foundersandcoders.com">Founders and Coders</a></span> bootcamp.</p>
               <p> I spend my spare time avoiding <span className="word3">cupcakes</span>, trying to get 
                into shape and learning <span className="word1">Java</span>.<br></br>
                presently looking for a junior developer role within a supportive and
-               progressive environment.
+               progressive environment.<br></br>
+               <span className="word3">Tech Stack:</span> HTML, CSS, javascript, Node.JS, Express, React, PostgreSQL, GIT
            </p>
        </BlurbDiv>
    ) 
