@@ -6,6 +6,7 @@ import {Title} from "./src/components/title"
 import {Blurb} from "./src/components/blurb"
 import {Name} from "./src/components/name"
 import {ImagePanel} from "./src/components/styling/styles"
+import {Head} from "./src/components/styling/styles"
 
 export default class App extends React.Component{
     state ={
@@ -32,6 +33,11 @@ export default class App extends React.Component{
                 <ImagePanel  className="panel"/>
             </Section> 
         }
+
+        <Section>
+            <Head>Projects</Head>
+
+        </Section>
             </>
             
         )

@@ -60,3 +60,11 @@ border-radius: 10px;
 box-shadow: 0 0 5px 5px grey;
 `
 
+export const Head = styled.div`
+display: flex;
+color: #140036;
+justify-content: center;
+`
+
+
+
