@@ -8,8 +8,8 @@ import {Title} from "./src/components/title"
 import {Blurb} from "./src/components/blurb"
 import {Name} from "./src/components/name"
 import {Chevron} from "./src/components/link"
-import {ImagePanel, Button} from "./src/components/styling/styles"
-import {Head} from "./src/components/styling/styles"
+import {ImagePanel, Head} from "./src/components/styling/styles"
+
 
 
 export default class App extends React.Component{
@@ -25,22 +25,23 @@ export default class App extends React.Component{
             <GlobalStyle />
             <Section img={ image } attachment={"fixed"}>
                 <Title />
-                <Chevron image={ white} place="first"  />
+                <Chevron image={ white} place="about"  />
             </Section>
             {width ? 
-            <Section img={ self } id="first">
+            <Section img={ self } id="about">
                <Name />
                <Blurb />
+               <Chevron image={ white } place="projects" />
             </Section>:
-            <Section id="first">
+            <Section id="about">
                 <Name />
                 <Blurb />
                 <ImagePanel  className="panel"/>
-                <Chevron size image={ blue } place="https://www.google.com" />
+                <Chevron image={ blue } place="projects" />
             </Section> 
         }
 
-        <Section>
+        <Section id="projects">
             <Head>Projects</Head>
         
 
