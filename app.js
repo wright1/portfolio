@@ -25,7 +25,7 @@ export default class App extends React.Component{
             <GlobalStyle />
             <Section img={ image } attachment={"fixed"}>
                 <Title />
-                <Chevron image={ white} place="#first"  />
+                <Chevron image={ white} place="first"  />
             </Section>
             {width ? 
             <Section img={ self } id="first">

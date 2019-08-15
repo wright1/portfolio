@@ -31,6 +31,8 @@
     "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
+    "acorn": "^6.3.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scroll": "^1.7.13",
