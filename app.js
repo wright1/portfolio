@@ -2,11 +2,15 @@ import React from "react"
 import  {Section, GlobalStyle}  from "./src/components/styling/styles"
 import image from "./public/images/stars.jpg"
 import self from "./public/images/selfImage.jpg"
+import white from "./public/images/white.png"
+import blue from "./public/images/blue.png"
 import {Title} from "./src/components/title"
 import {Blurb} from "./src/components/blurb"
 import {Name} from "./src/components/name"
-import {ImagePanel} from "./src/components/styling/styles"
+import {Chevron} from "./src/components/link"
+import {ImagePanel, Button} from "./src/components/styling/styles"
 import {Head} from "./src/components/styling/styles"
+
 
 export default class App extends React.Component{
     state ={
@@ -21,21 +25,24 @@ export default class App extends React.Component{
             <GlobalStyle />
             <Section img={ image } attachment={"fixed"}>
                 <Title />
+                <Chevron image={ white} place="#first"  />
             </Section>
             {width ? 
-            <Section img={ self }>
+            <Section img={ self } id="first">
                <Name />
                <Blurb />
             </Section>:
-            <Section>
+            <Section id="first">
                 <Name />
                 <Blurb />
                 <ImagePanel  className="panel"/>
+                <Chevron size image={ blue } place="https://www.google.com" />
             </Section> 
         }
 
         <Section>
             <Head>Projects</Head>
+        
 
         </Section>
             </>

@@ -4,7 +4,7 @@ import styled from "styled-components"
 const NameDiv = styled.div`
 display: flex;
 flex-direction: column;
-margin-bottom: 1.7em;
+margin-bottom: 1.3em;
 font-family: 'PT Sans Narrow', sans-serif;
 font-size: 2.5em;
 color: #140036;
