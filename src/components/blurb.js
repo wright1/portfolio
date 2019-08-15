@@ -2,12 +2,15 @@ import React from "react"
 import styled from "styled-components"
 
 const BlurbDiv = styled.div`
+background-color: rgba(255, 255, 255, 0.3);
 color: #140036;
 font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 font-size: 1.3em;
 width: 60vw;
-padding-left: 1em;
+border-radius: 5px;
+margin-left: 1em;
+padding-left: 2px;
   p{
 a{
     color: #7C89B3;
