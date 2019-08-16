@@ -1,14 +1,15 @@
 import React from "react"
-import  {Section, GlobalStyle}  from "./src/components/styling/styles"
+import  { Section, GlobalStyle }  from "./src/components/styling/styles"
 import image from "./public/images/stars.jpg"
 import self from "./public/images/selfImage.jpg"
 import white from "./public/images/white.png"
 import blue from "./public/images/blue.png"
-import {Title} from "./src/components/title"
-import {Blurb} from "./src/components/blurb"
-import {Name} from "./src/components/name"
-import {Chevron} from "./src/components/link"
-import {ImagePanel, Head} from "./src/components/styling/styles"
+import { Title } from "./src/components/title"
+import { Blurb } from "./src/components/blurb"
+import { Name } from "./src/components/name"
+import { Chevron } from "./src/components/link"
+import { ImagePanel, Head } from "./src/components/styling/styles"
+import { Top } from "./src/components/top"
 
 
 
@@ -23,7 +24,7 @@ export default class App extends React.Component{
         return(
             <>
             <GlobalStyle />
-            <Section img={ image } attachment={"fixed"}>
+            <Section img={ image } attachment={"fixed"} id="title">
                 <Title />
                 <Chevron image={ white} place="about"  />
             </Section>
@@ -44,7 +45,7 @@ export default class App extends React.Component{
         <Section id="projects">
             <Head>Projects</Head>
         
-
+            <Top />
         </Section>
             </>
             
