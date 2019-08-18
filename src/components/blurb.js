@@ -6,7 +6,7 @@ background-color: rgba(255, 255, 255, 0.3);
 color: #140036;
 font-family: 'Open Sans', sans-serif;
 font-weight: 300;
-font-size: 1.3em;
+font-size: 1em;
 width: 60vw;
 border-radius: 5px;
 margin-left: 1em;

@@ -4,12 +4,17 @@ import image from "./public/images/stars.jpg"
 import self from "./public/images/selfImage.jpg"
 import white from "./public/images/white.png"
 import blue from "./public/images/blue.png"
+import food from "./src/images/food.png"
+import namegame from "./src/images/namegame.png"
+import spellchecker from "./src/images/spellchecker.png"
 import { Title } from "./src/components/title"
 import { Blurb } from "./src/components/blurb"
 import { Name } from "./src/components/name"
 import { Chevron } from "./src/components/link"
 import { ImagePanel, Head } from "./src/components/styling/styles"
 import { Top } from "./src/components/top"
+import { ProjectCard } from "./src/components/projectCard"
+
 
 
 
@@ -44,7 +49,19 @@ export default class App extends React.Component{
 
         <Section id="projects">
             <Head>Projects</Head>
-        
+            <ProjectCard
+             img={ namegame }
+             place="https://namegame.netlify.com" 
+             />
+             <ProjectCard
+              img={ spellchecker }
+              place="https://github.com/wright1/spellchecker"
+              />
+              <ProjectCard
+               img={ food }
+               place="https://trjfpapp.herokuapp.com/"
+               />
+            
             <Top />
         </Section>
             </>
